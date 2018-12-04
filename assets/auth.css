@@ -1,0 +1,63 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container
+{
+	width: 34%;
+	padding: 16px;
+}
+input[type=text], input[type=password], input[type=email] 
+{
+    width: 100%;
+    padding: 10px 8px;
+    margin: 8px 0;
+    display: inline-block;
+	box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+button 
+{
+	font-size: 16px;
+	width: 100%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+button:hover
+{
+    opacity: 0.8;
+}
+.container--login, .container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+button 
+{
+    font-size: 16px;
+	background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+	width: 50%;
+	float: left;
+}
+button:hover
+{
+    opacity: 0.8;
+}
+
+.cancelbtn
+{
+    padding: 14px 20px;
+    background-color: red;
+}
+.cancelbtn:hover
+{
+    opacity: 0.6;
+}
